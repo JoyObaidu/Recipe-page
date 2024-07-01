@@ -35,13 +35,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- flexbox
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
 
 ### What I learned
 I learnt this css propertyfor styling lists
@@ -56,10 +51,6 @@ I learnt this css propertyfor styling lists
 - [Semantic html](https://www.pluralsight.com/resources/blog/guides/semantic-html#:~:text=Semantic%20HTML%20Page%20Layout&text=header%2C%20main%2C%20and%20footer%20tags,webpages%20into%20tangible%20sections%20difficult.) - This is an amazing article which helped me finally understand semantic html tags.
 
 
-## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 
