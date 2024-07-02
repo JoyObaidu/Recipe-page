@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark--Charcoal: hsl(24, 5%, 18%);
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Outfit", sans-serif;
+   background-color: var(--White);
+   font-size: 14px;
+}
+h1{
+    color: var(--Dark--Charcoal);
+}
+p, small{
+    color: var(--Wenge-Brown);
+   
+}
+
+header img{
+    width: 100%;
+}
+
+main{
+    margin: 1em 3em;
+}
+main > *{
+    margin-top: 1.5em;
+}
+section.time{
+    background-color: var(--Rose-White);
+    padding: 1em;
+    border-radius: 1rem;
+}
+section.time li::marker, h3{
+    color: var(--Dark-Raspberry);
+}
+li{
+    margin-left: 1em;
+}
+ol li{
+    margin-bottom: 1em;
+}
+b{
+    color: var(--Dark--Charcoal);
+}
+li, p{
+    line-height: 1.5;
+}
+li::marker{
+    font-weight: 700;
+}
+li::marker, h2{
+    color: var(--Nutmeg);
+}
+h3, h2{
+    margin-bottom: 1rem;
+    font-family: "Young Serif", serif;
+}
+section p{
+    margin-bottom: 1em;
+}
+table{
+    width: 100%;
+}
+tr:not(:last-child) {
+    border-bottom: 1px solid var(--Wenge-Brown);
+}
+tr{
+   color: var(--Dark--Charcoal);
+}
+table .val{
+    color: var(--Nutmeg);
+    font-weight: 700;
+}
+hr{
+    font-weight: 200;
+    color: var(--Light-Grey);
+}
+
+@media screen and (min-width: 510px) {
+    body{
+        background-color: var(--Eggshell);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        background-color: var(--White);
+        margin: 20%;
+        padding: 1.5em;
+        border-radius: 1em;
+    }
+    main{
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .container{
+        margin: 10% 30%;
+    }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
